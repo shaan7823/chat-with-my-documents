@@ -1,0 +1,21 @@
+[project]
+name = "chat-with-my-documents"
+version = "0.1.0"
+description = "A beginner-friendly RAG app with LangChain, OpenAI, Chroma, and FastAPI."
+requires-python = ">=3.11"
+
+[project.dependencies]
+fastapi = "0.115.9"
+uvicorn = "0.24.0"
+langchain = "0.1.0"
+openai = "1.9.0"
+chromadb = "1.5.9"
+pydantic = "2.13.4"
+numpy = "1.26.4"
+python-dotenv = "1.0.0"
+pypdf = "6.15.0"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q"
+testpaths = ["tests"]

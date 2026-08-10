@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.swp
+*.swo
+*.sage.py
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.pyre/
+.pytype/
+.mypy_cache/
+.python-version
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.manifest
+*.spec
+*.log
+
+# Local database and temporary files
+db/
+tmp_*
+.qodo/
+
+# Environment files
+.env
+.env.*
