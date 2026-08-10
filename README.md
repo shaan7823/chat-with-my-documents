@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chat With My Documents
 
 A beginner-friendly Retrieval-Augmented Generation (RAG) project using Python, FastAPI, LangChain, OpenAI, and Chroma.
