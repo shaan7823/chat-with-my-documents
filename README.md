@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chat With My Documents
 
 A beginner-friendly Retrieval-Augmented Generation (RAG) project using Python, FastAPI, LangChain, OpenAI, and Chroma.
@@ -41,6 +40,7 @@ copy .env.example .env
 ## Ingestion
 
 The ingestion script:
+
 - loads PDFs from `data/`
 - splits them into chunks for better retrieval
 - embeds each chunk with OpenAI embeddings
@@ -61,6 +61,7 @@ curl -X POST http://127.0.0.1:8000/ingest
 ## Why chunking matters
 
 We use `CHUNK_SIZE=500` and `CHUNK_OVERLAP=100`.
+
 - `chunk_size=500` keeps each chunk big enough to preserve meaning.
 - `chunk_overlap=100` ensures important sentences are not split across chunks.
 
