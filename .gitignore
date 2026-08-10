@@ -45,3 +45,4 @@ tmp_*
 # Environment files
 .env
 .env.*
+data/*.pdf
